@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name ,Last Name , Password and Email are required</p>
+    <form action="thank_you.html">
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="Firs Name" placeholder="First Name" required>
+
+
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="Last Name" placeholder="Last Name" required>
+
+<p> </p>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+<label for="password">Password:</label>
+ <input type="password" id="password" name="passworde" placeholder="password" required>
+
+<!-- Creating Radio Buttons With Labels AND LINKING THEM -->
+<p>Are you over the age of 18?</p>
+<label for="18+">Yes</label>
+<input type="radio" id="18+" name="age" value="">
+
+<label for="18-">No</label>
+<input type="radio" id="18-" name="age" value="">
+
+<!-- Creating A selection Option -->
+<h3>Do you have a Credit Card or Paypal ?</h3>
+<select name="payment mode">
+  <option value="Card">Credit Card</option>
+  <option value="online">Paypal</option>
+</select>
+<input type="submit" name="" value="Sign Up">
+    </form>
+
+  </body>
+</html>
